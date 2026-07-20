@@ -1,10 +1,10 @@
-[01:26:29] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[01:26:30] [ServerMain/WARN]: Missing data pack antixray
-[01:26:30] [ServerMain/WARN]: Missing data pack fabric-convention-tags-v2
-[01:26:30] [ServerMain/WARN]: Missing data pack mr_norollback
-[01:26:30] [ServerMain/WARN]: Missing data pack mr_uuid_hex
-[01:26:31] [Worker-Main-1/ERROR]: Unable to read or access the world gen settings file! Falling back to the default settings with a random world seed. ./world/data/minecraft/world_gen_settings.dat
-[01:26:31] [ServerMain/WARN]: Failed to load datapacks, can't proceed with server load. You can either fix your datapacks or reset to vanilla with --safeMode
+[01:32:59] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[01:32:59] [ServerMain/WARN]: Missing data pack antixray
+[01:32:59] [ServerMain/WARN]: Missing data pack fabric-convention-tags-v2
+[01:32:59] [ServerMain/WARN]: Missing data pack mr_norollback
+[01:32:59] [ServerMain/WARN]: Missing data pack mr_uuid_hex
+[01:33:00] [Worker-Main-1/ERROR]: Unable to read or access the world gen settings file! Falling back to the default settings with a random world seed. ./world/data/minecraft/world_gen_settings.dat
+[01:33:00] [ServerMain/WARN]: Failed to load datapacks, can't proceed with server load. You can either fix your datapacks or reset to vanilla with --safeMode
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Overworld settings missing
 	at java.base/java.util.concurrent.CompletableFuture.wrapInExecutionException(CompletableFuture.java:345)
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:440)
